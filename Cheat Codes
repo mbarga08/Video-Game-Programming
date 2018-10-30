@@ -1,0 +1,148 @@
+cheat = get_string("Enter your cheat","");
+
+if (cheat = "aomrookie")
+{
+    sound_play(happy);
+    show_message("Cheat confirmed. Infinite lives.");
+    bonus_control.codes = 1;
+    object_set_parent(micah,micah_normal_inflives1);
+    sound_play(world1);
+    sound_loop(world1);
+    lives = 3;
+    room_goto(world1_level1);
+    transition_kind = 1;
+}
+else if (cheat = "rapidfire")
+{
+    sound_play(happy);
+    show_message("Cheat confirmed. Infinite screws.");
+    bonus_control.codes = 2;
+    object_set_parent(micah,micah_normal_infscrews);
+    sound_play(world1);
+    sound_loop(world1);
+    lives = 3;
+    room_goto(world1_level1);
+    transition_kind = 1;
+}
+else if (cheat = "harmlessfoes")
+{
+    sound_play(happy);
+    show_message("Cheat confirmed. Invincibility.");
+    bonus_control.codes = 3;
+    object_set_parent(micah,micah_inv);
+    sound_play(world1);
+    sound_loop(world1);
+    lives = 3;
+    room_goto(world1_level1);
+    transition_kind = 1;
+}
+else if (cheat = "truce")
+{
+    sound_play(happy);
+    show_message("Cheat confirmed. Boss weapons disabled.");
+    bonus_control.bossWep = 1;
+    sound_play(world1);
+    sound_loop(world1);
+    lives = 3;
+    room_goto(world1_level1);
+    transition_kind = 1;
+}
+else if (cheat = "supercheat")
+{
+    sound_play(happy);
+    show_message("Cheat confirmed. Infinite lives, infinite screws, and invincibility.");
+    bonus_control.codes = 4;
+    object_set_parent(micah,micah_normal_inflives2);
+    sound_play(world1);
+    sound_loop(world1);
+    lives = 3;
+    room_goto(world1_level1);
+    transition_kind = 1;
+}
+else if (cheat = "surprise")
+{
+    sound_play(happy);
+    show_message("Cheat confirmed. Level select.");
+    sound_play(select_level);
+    sound_loop(select_level);
+    lives = 3;
+    room_goto(level_select);
+    transition_kind = 1;
+}
+else if (cheat = "lifefreesurprise")
+{
+    sound_play(happy);
+    show_message("Cheat confirmed. Level select with infinite lives.");
+    bonus_control.codes = 1;
+    object_set_parent(micah,micah_normal_inflives1);
+    sound_play(select_level);
+    sound_loop(select_level);
+    lives = 3;
+    room_goto(level_select);
+    transition_kind = 1;
+}
+else if (cheat = "slingsurprise")
+{
+    sound_play(happy);
+    show_message("Cheat confirmed. Level select with infinite screws.");
+    bonus_control.codes = 2;
+    object_set_parent(micah,micah_normal_infscrews);
+    sound_play(select_level);
+    sound_loop(select_level);
+    lives = 3;
+    room_goto(level_select);
+    transition_kind = 1;
+}
+else if (cheat = "injuryfreesurprise")
+{
+    sound_play(happy);
+    show_message("Cheat confirmed. Level select with invincibility.");
+    bonus_control.codes = 3;
+    object_set_parent(micah,micah_inv);
+    sound_play(select_level);
+    sound_loop(select_level);
+    lives = 3;
+    room_goto(level_select);
+    transition_kind = 1;
+}
+else if (cheat = "weaponproofsurprise")
+{
+    sound_play(happy);
+    show_message("Cheat confirmed. Level select with no boss weapons.");
+    bonus_control.bossWep = 1;
+    sound_play(select_level);
+    sound_loop(select_level);
+    lives = 3;
+    room_goto(level_select);
+    transition_kind = 1;
+}
+else if (cheat = "supersurprise")
+{
+    sound_play(happy);
+    show_message("Cheat confirmed. Level select with infinite lives, infinite screws, and invincibility.");
+    bonus_control.codes = 4;
+    object_set_parent(micah,micah_normal_inflives2);
+    sound_play(select_level);
+    sound_loop(select_level);
+    lives = 3;
+    room_goto(level_select);
+    transition_kind = 1;
+}
+else if (cheat = "afterthequest")
+{
+    sound_play(happy);
+    show_message("Cheat confirmed. Showing the ending scene.");
+    sound_play(ending);
+    room_goto(rescue);
+    transition_kind = 1;
+}
+else
+{
+    sound_play(hurt);
+    show_message("Sorry, the code you entered has been denied.");
+    sound_play(world1);
+    sound_loop(world1);
+    lives = 3;
+    room_goto(world1_level1);
+    transition_kind = 1;
+}
