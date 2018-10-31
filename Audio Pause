@@ -1,0 +1,6 @@
+//Pause all background music.
+audio_pause_sound(snd_billsOcean);
+audio_pause_sound(snd_campTrekkerJr);
+audio_pause_sound(snd_mommaTrekkersFrightfulCircus);
+audio_pause_sound(snd_trekkerHighway);
+audio_pause_sound(snd_trekkersMansion);
