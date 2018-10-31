@@ -1,0 +1,944 @@
+if global.player = 1
+{
+    if global.confirm = 1
+    {
+        if room = level1
+        {
+        instance_create(336,496,micah);
+        }
+        else if room = level2
+        {
+        instance_create(48,560,micah);
+        }
+        else if room = level3
+        {
+        instance_create(368,560,micah);
+        }
+        else if room = level4
+        {
+        instance_create(176,560,micah);
+        }
+        else if room = level5
+        {
+        instance_create(384,496,micah);
+        }
+    }
+    else if global.confirm = 2
+    {
+        if room = level1
+        {
+        instance_create(336,496,wesley);
+        }
+        else if room = level2
+        {
+        instance_create(48,560,wesley);
+        }
+        else if room = level3
+        {
+        instance_create(368,560,wesley);
+        }
+        else if room = level4
+        {
+        instance_create(176,560,wesley);
+        }
+        else if room = level5
+        {
+        instance_create(384,496,wesley);
+        }
+    }
+    else if global.confirm = 3
+    {
+        if room = level1
+        {
+        instance_create(336,496,sarah);
+        }
+        else if room = level2
+        {
+        instance_create(48,560,sarah);
+        }
+        else if room = level3
+        {
+        instance_create(368,560,sarah);
+        }
+        else if room = level4
+        {
+        instance_create(176,560,sarah);
+        }
+        else if room = level5
+        {
+        instance_create(384,496,sarah);
+        }
+    }
+    else if global.confirm = 4
+    {
+        if room = level1
+        {
+        instance_create(336,496,jessica);
+        }
+        else if room = level2
+        {
+        instance_create(48,560,jessica);
+        }
+        else if room = level3
+        {
+        instance_create(368,560,jessica);
+        }
+        else if room = level4
+        {
+        instance_create(176,560,jessica);
+        }
+        else if room = level5
+        {
+        instance_create(384,496,jessica);
+        }
+    }
+}
+else if global.player = 2
+{
+    if global.confirm = 1
+    {
+        if room = level1
+        {
+        instance_create(240,432,micah1);
+        }
+        else if room = level2
+        {
+        instance_create(224,560,micah1);
+        }
+        else if room = level3
+        {
+        instance_create(192,560,micah1);
+        }
+        else if room = level4
+        {
+        instance_create(128,560,micah1);
+        }
+        else if room = level5
+        {
+        instance_create(288,496,micah1);
+        }
+    }
+    else if global.confirm = 2
+    {
+        if room = level1
+        {
+        instance_create(240,432,wesley1);
+        }
+        else if room = level2
+        {
+        instance_create(224,560,wesley1);
+        }
+        else if room = level3
+        {
+        instance_create(192,560,wesley1);
+        }
+        else if room = level4
+        {
+        instance_create(128,560,wesley1);
+        }
+        else if room = level5
+        {
+        instance_create(288,496,wesley1);
+        }
+    }
+    else if global.confirm = 3
+    {
+        if room = level1
+        {
+        instance_create(240,432,sarah1);
+        }
+        else if room = level2
+        {
+        instance_create(224,560,sarah1);
+        }
+        else if room = level3
+        {
+        instance_create(192,560,sarah1);
+        }
+        else if room = level4
+        {
+        instance_create(128,560,sarah1);
+        }
+        else if room = level5
+        {
+        instance_create(288,496,sarah1);
+        }
+    }
+    else if global.confirm = 4
+    {
+        if room = level1
+        {
+        instance_create(240,432,jessica1);
+        }
+        else if room = level2
+        {
+        instance_create(224,560,jessica1);
+        }
+        else if room = level3
+        {
+        instance_create(192,560,jessica1);
+        }
+        else if room = level4
+        {
+        instance_create(128,560,jessica1);
+        }
+        else if room = level5
+        {
+        instance_create(288,496,jessica1);
+        }
+    }
+    if global.pick = 1
+    {
+        if room = level1
+        {
+        instance_create(448,432,micah1);
+        }
+        else if room = level2
+        {
+        instance_create(448,560,micah1);
+        }
+        else if room = level3
+        {
+        instance_create(544,560,micah1);
+        }
+        else if room = level4
+        {
+        instance_create(240,560,micah1);
+        }
+        else if room = level5
+        {
+        instance_create(432,496,micah1);
+        }
+    }
+    else if global.pick = 2
+    {
+        if room = level1
+        {
+        instance_create(448,432,wesley1);
+        }
+        else if room = level2
+        {
+        instance_create(448,560,wesley1);
+        }
+        else if room = level3
+        {
+        instance_create(544,560,wesley1);
+        }
+        else if room = level4
+        {
+        instance_create(240,560,wesley1);
+        }
+        else if room = level5
+        {
+        instance_create(432,496,wesley1);
+        }
+    }
+    else if global.pick = 3
+    {
+        if room = level1
+        {
+        instance_create(448,432,sarah1);
+        }
+        else if room = level2
+        {
+        instance_create(448,560,sarah1);
+        }
+        else if room = level3
+        {
+        instance_create(544,560,sarah1);
+        }
+        else if room = level4
+        {
+        instance_create(240,560,sarah1);
+        }
+        else if room = level5
+        {
+        instance_create(432,496,sarah1);
+        }
+    }
+    else if global.pick = 4
+    {
+        if room = level1
+        {
+        instance_create(448,432,jessica1);
+        }
+        else if room = level2
+        {
+        instance_create(448,560,jessica1);
+        }
+        else if room = level3
+        {
+        instance_create(544,560,jessica1);
+        }
+        else if room = level4
+        {
+        instance_create(240,560,jessica1);
+        }
+        else if room = level5
+        {
+        instance_create(432,496,jessica1);
+        }
+    }
+    if room = level5
+    {
+    background_index = lv5_2;
+    }
+}
+else if global.player = 3
+{
+    if global.confirm = 1
+    {
+        if room = level1
+        {
+        instance_create(336,496,micah2);
+        }
+        else if room = level2
+        {
+        instance_create(376,496,micah2);
+        }
+        else if room = level3
+        {
+        instance_create(368,560,micah2);
+        }
+        else if room = level4
+        {
+        instance_create(176,560,micah2);
+        }
+        else if room = level5
+        {
+        instance_create(368,496,micah2);
+        }
+    }
+    else if global.confirm = 2
+    {
+        if room = level1
+        {
+        instance_create(336,496,wesley2);
+        }
+        else if room = level2
+        {
+        instance_create(376,496,wesley2);
+        }
+        else if room = level3
+        {
+        instance_create(368,560,wesley2);
+        }
+        else if room = level4
+        {
+        instance_create(176,560,wesley2);
+        }
+        else if room = level5
+        {
+        instance_create(368,496,wesley2);
+        }
+    }
+    else if global.confirm = 3
+    {
+        if room = level1
+        {
+        instance_create(336,496,sarah2);
+        }
+        else if room = level2
+        {
+        instance_create(376,496,sarah2);
+        }
+        else if room = level3
+        {
+        instance_create(368,560,sarah2);
+        }
+        else if room = level4
+        {
+        instance_create(176,560,sarah2);
+        }
+        else if room = level5
+        {
+        instance_create(368,496,sarah2);
+        }
+    }
+    else if global.confirm = 4
+    {
+        if room = level1
+        {
+        instance_create(336,496,jessica2);
+        }
+        else if room = level2
+        {
+        instance_create(376,496,jessica2);
+        }
+        else if room = level3
+        {
+        instance_create(368,560,jessica2);
+        }
+        else if room = level4
+        {
+        instance_create(176,560,jessica2);
+        }
+        else if room = level5
+        {
+        instance_create(368,496,jessica2);
+        }
+    }
+    if global.pick = 1
+    {
+        if room = level1
+        {
+        instance_create(224,432,micah2);
+        }
+        else if room = level2
+        {
+        instance_create(48,560,micah2);
+        }
+        else if room = level3
+        {
+        instance_create(192,560,micah2);
+        }
+        else if room = level4
+        {
+        instance_create(48,560,micah2);
+        }
+        else if room = level5
+        {
+        instance_create(240,496,micah2);
+        }
+    }
+    else if global.pick = 2
+    {
+        if room = level1
+        {
+        instance_create(224,432,wesley2);
+        }
+        else if room = level2
+        {
+        instance_create(48,560,wesley2);
+        }
+        else if room = level3
+        {
+        instance_create(192,560,wesley2);
+        }
+        else if room = level4
+        {
+        instance_create(48,560,wesley2);
+        }
+        else if room = level5
+        {
+        instance_create(240,496,wesley2);
+        }
+    }
+    else if global.pick = 3
+    {
+        if room = level1
+        {
+        instance_create(224,432,sarah2);
+        }
+        else if room = level2
+        {
+        instance_create(48,560,sarah2);
+        }
+        else if room = level3
+        {
+        instance_create(192,560,sarah2);
+        }
+        else if room = level4
+        {
+        instance_create(48,560,sarah2);
+        }
+        else if room = level5
+        {
+        instance_create(240,496,sarah2);
+        }
+    }
+    else if global.pick = 4
+    {
+        if room = level1
+        {
+        instance_create(224,432,jessica2);
+        }
+        else if room = level2
+        {
+        instance_create(48,560,jessica2);
+        }
+        else if room = level3
+        {
+        instance_create(192,560,jessica2);
+        }
+        else if room = level4
+        {
+        instance_create(48,560,jessica2);
+        }
+        else if room = level5
+        {
+        instance_create(240,496,jessica2);
+        }
+    }
+    if global.choose = 1
+    {
+        if room = level1
+        {
+        instance_create(448,432,micah2);
+        }
+        else if room = level2
+        {
+        instance_create(624,560,micah2);
+        }
+        else if room = level3
+        {
+        instance_create(544,560,micah2);
+        }
+        else if room = level4
+        {
+        instance_create(304,560,micah2);
+        }
+        else if room = level5
+        {
+        instance_create(496,496,micah2);
+        }
+    }
+    else if global.choose = 2
+    {
+        if room = level1
+        {
+        instance_create(448,432,wesley2);
+        }
+        else if room = level2
+        {
+        instance_create(624,560,wesley2);
+        }
+        else if room = level3
+        {
+        instance_create(544,560,wesley2);
+        }
+        else if room = level4
+        {
+        instance_create(304,560,wesley2);
+        }
+        else if room = level5
+        {
+        instance_create(496,496,wesley2);
+        }
+    }
+    else if global.choose = 3
+    {
+        if room = level1
+        {
+        instance_create(448,432,sarah2);
+        }
+        else if room = level2
+        {
+        instance_create(624,560,sarah2);
+        }
+        else if room = level3
+        {
+        instance_create(544,560,sarah2);
+        }
+        else if room = level4
+        {
+        instance_create(304,560,sarah2);
+        }
+        else if room = level5
+        {
+        instance_create(496,496,sarah2);
+        }
+    }
+    else if global.choose = 4
+    {
+        if room = level1
+        {
+        instance_create(448,432,jessica2);
+        }
+        else if room = level2
+        {
+        instance_create(624,560,jessica2);
+        }
+        else if room = level3
+        {
+        instance_create(544,560,jessica2);
+        }
+        else if room = level4
+        {
+        instance_create(304,560,jessica2);
+        }
+        else if room = level5
+        {
+        instance_create(496,496,jessica2);
+        }
+    }
+    if room = level5
+    {
+    background_index = lv5_2;
+    }
+}
+else if global.player = 4
+{
+    if global.confirm = 1
+    {
+        if room = level1
+        {
+        instance_create(240,432,micah3);
+        }
+        else if room = level2
+        {
+        instance_create(224,560,micah3);
+        }
+        else if room = level3
+        {
+        instance_create(304,560,micah3);
+        }
+        else if room = level4
+        {
+        instance_create(112,560,micah3);
+        }
+        else if room = level5
+        {
+        instance_create(320,496,micah3);
+        }
+    }
+    else if global.confirm = 2
+    {
+        if room = level1
+        {
+        instance_create(240,432,wesley3);
+        }
+        else if room = level2
+        {
+        instance_create(224,560,wesley3);
+        }
+        else if room = level3
+        {
+        instance_create(304,560,wesley3);
+        }
+        else if room = level4
+        {
+        instance_create(112,560,wesley3);
+        }
+        else if room = level5
+        {
+        instance_create(320,496,wesley3);
+        }
+    }
+    else if global.confirm = 3
+    {
+        if room = level1
+        {
+        instance_create(240,432,sarah3);
+        }
+        else if room = level2
+        {
+        instance_create(224,560,sarah3);
+        }
+        else if room = level3
+        {
+        instance_create(304,560,sarah3);
+        }
+        else if room = level4
+        {
+        instance_create(112,560,sarah3);
+        }
+        else if room = level5
+        {
+        instance_create(320,496,sarah3);
+        }
+    }
+    else if global.confirm = 4
+    {
+        if room = level1
+        {
+        instance_create(240,432,jessica3);
+        }
+        else if room = level2
+        {
+        instance_create(224,560,jessica3);
+        }
+        else if room = level3
+        {
+        instance_create(304,560,jessica3);
+        }
+        else if room = level4
+        {
+        instance_create(112,560,jessica3);
+        }
+        else if room = level5
+        {
+        instance_create(320,496,jessica3);
+        }
+    }
+    if global.pick = 1
+    {
+        if room = level1
+        {
+        instance_create(208,432,micah3);
+        }
+        else if room = level2
+        {
+        instance_create(48,560,micah3);
+        }
+        else if room = level3
+        {
+        instance_create(96,560,micah3);
+        }
+        else if room = level4
+        {
+        instance_create(64,560,micah3);
+        }
+        else if room = level5
+        {
+        instance_create(224,496,micah3);
+        }
+    }
+    else if global.pick = 2
+    {
+        if room = level1
+        {
+        instance_create(208,432,wesley3);
+        }
+        else if room = level2
+        {
+        instance_create(48,560,wesley3);
+        }
+        else if room = level3
+        {
+        instance_create(96,560,wesley3);
+        }
+        else if room = level4
+        {
+        instance_create(64,560,wesley3);
+        }
+        else if room = level5
+        {
+        instance_create(224,496,wesley3);
+        }
+    }
+    else if global.pick = 3
+    {
+        if room = level1
+        {
+        instance_create(208,432,sarah3);
+        }
+        else if room = level2
+        {
+        instance_create(48,560,sarah3);
+        }
+        else if room = level3
+        {
+        instance_create(96,560,sarah3);
+        }
+        else if room = level4
+        {
+        instance_create(64,560,sarah3);
+        }
+        else if room = level5
+        {
+        instance_create(224,496,sarah3);
+        }
+    }
+    else if global.pick = 4
+    {
+        if room = level1
+        {
+        instance_create(208,432,jessica3);
+        }
+        else if room = level2
+        {
+        instance_create(48,560,jessica3);
+        }
+        else if room = level3
+        {
+        instance_create(96,560,jessica3);
+        }
+        else if room = level4
+        {
+        instance_create(64,560,jessica3);
+        }
+        else if room = level5
+        {
+        instance_create(224,496,jessica3);
+        }
+    }
+    if global.choose = 1
+    {
+        if room = level1
+        {
+        instance_create(448,432,micah3);
+        }
+        else if room = level2
+        {
+        instance_create(432,560,micah3);
+        }
+        else if room = level3
+        {
+        instance_create(432,560,micah3);
+        }
+        else if room = level4
+        {
+        instance_create(224,560,micah3);
+        }
+        else if room = level5
+        {
+        instance_create(464,496,micah3);
+        }
+    }
+    else if global.choose = 2
+    {
+        if room = level1
+        {
+        instance_create(448,432,wesley3);
+        }
+        else if room = level2
+        {
+        instance_create(432,560,wesley3);
+        }
+        else if room = level3
+        {
+        instance_create(432,560,wesley3);
+        }
+        else if room = level4
+        {
+        instance_create(224,560,wesley3);
+        }
+        else if room = level5
+        {
+        instance_create(464,496,wesley3);
+        }
+    }
+    else if global.choose = 3
+    {
+        if room = level1
+        {
+        instance_create(448,432,sarah3);
+        }
+        else if room = level2
+        {
+        instance_create(432,560,sarah3);
+        }
+        else if room = level3
+        {
+        instance_create(432,560,sarah3);
+        }
+        else if room = level4
+        {
+        instance_create(224,560,sarah3);
+        }
+        else if room = level5
+        {
+        instance_create(464,496,sarah3);
+        }
+    }
+    else if global.choose = 4
+    {
+        if room = level1
+        {
+        instance_create(448,432,jessica3);
+        }
+        else if room = level2
+        {
+        instance_create(432,560,jessica3);
+        }
+        else if room = level3
+        {
+        instance_create(432,560,jessica3);
+        }
+        else if room = level4
+        {
+        instance_create(224,560,jessica3);
+        }
+        else if room = level5
+        {
+        instance_create(464,496,jessica3);
+        }
+    }
+    if global.use = 1
+    {
+        if room = level1
+        {
+        instance_create(480,432,micah3);
+        }
+        else if room = level2
+        {
+        instance_create(624,560,micah3);
+        }
+        else if room = level3
+        {
+        instance_create(640,560,micah3);
+        }
+        else if room = level4
+        {
+        instance_create(272,560,micah3);
+        }
+        else if room = level5
+        {
+        instance_create(560,496,micah3);
+        }
+    }
+    else if global.use = 2
+    {
+        if room = level1
+        {
+        instance_create(480,432,wesley3);
+        }
+        else if room = level2
+        {
+        instance_create(624,560,wesley3);
+        }
+        else if room = level3
+        {
+        instance_create(640,560,wesley3);
+        }
+        else if room = level4
+        {
+        instance_create(272,560,wesley3);
+        }
+        else if room = level5
+        {
+        instance_create(560,496,wesley3);
+        }
+    }
+    else if global.use = 3
+    {
+        if room = level1
+        {
+        instance_create(480,432,sarah3);
+        }
+        else if room = level2
+        {
+        instance_create(624,560,sarah3);
+        }
+        else if room = level3
+        {
+        instance_create(640,560,sarah3);
+        }
+        else if room = level4
+        {
+        instance_create(272,560,sarah3);
+        }
+        else if room = level5
+        {
+        instance_create(560,496,sarah3);
+        }
+    }
+    else if global.use = 4
+    {
+        if room = level1
+        {
+        instance_create(480,432,jessica3);
+        }
+        else if room = level2
+        {
+        instance_create(624,560,jessica3);
+        }
+        else if room = level3
+        {
+        instance_create(640,560,jessica3);
+        }
+        else if room = level4
+        {
+        instance_create(272,560,jessica3);
+        }
+        else if room = level5
+        {
+        instance_create(560,496,jessica3);
+        }
+    }
+    if room = level5
+    {
+    background_index = lv5_2;
+    }
+}
