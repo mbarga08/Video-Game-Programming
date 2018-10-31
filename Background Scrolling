@@ -1,0 +1,7 @@
+instance_deactivate_all(true);
+audio_pause_all();
+if room == rm_bonus1 || room == rm_bonus2
+{
+    background_hspeed = 0; //Stops horizontal background scrolling.
+    background_vspeed = 0; //Stops vertical background scrolling.
+}
