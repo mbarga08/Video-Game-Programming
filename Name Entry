@@ -1,0 +1,6 @@
+sound_play(selection_confirm_and_player1_cpu1_round_win);
+global.player = 1;
+global.name = get_string("Name Entry","");
+global.cpu = get_string("CPU Name Entry","");
+room_goto_next();
+transition_kind = 5;
