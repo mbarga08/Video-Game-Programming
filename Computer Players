@@ -1,0 +1,152 @@
+global.cpu1 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+global.cpu2 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+global.cpu3 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+global.cpu4 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+global.cpu5 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+global.cpu6 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+global.cpu7 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+global.cpu8 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+while (global.confirm = global.cpu1)
+{
+    global.cpu1 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.confirm = global.cpu2)
+{
+    global.cpu2 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.confirm = global.cpu3)
+{
+    global.cpu3 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.confirm = global.cpu4)
+{
+    global.cpu4 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.confirm = global.cpu5)
+{
+    global.cpu5 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.confirm = global.cpu6)
+{
+    global.cpu6 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.confirm = global.cpu7)
+{
+    global.cpu7 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.confirm = global.cpu8)
+{
+    global.cpu8 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu1 = global.cpu2)
+{
+    global.cpu2 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu1 = global.cpu3)
+{
+    global.cpu3 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu1 = global.cpu4)
+{
+    global.cpu4 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu1 = global.cpu5)
+{
+    global.cpu5 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu1 = global.cpu6)
+{
+    global.cpu6 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu1 = global.cpu7)
+{
+    global.cpu7 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu1 = global.cpu8)
+{
+    global.cpu8 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu2 = global.cpu3)
+{
+    global.cpu3 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu2 = global.cpu4)
+{
+    global.cpu4 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu2 = global.cpu5)
+{
+    global.cpu5 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu2 = global.cpu6)
+{
+    global.cpu6 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu2 = global.cpu7)
+{
+    global.cpu7 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu2 = global.cpu8)
+{
+    global.cpu8 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu3 = global.cpu4)
+{
+    global.cpu4 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu3 = global.cpu5)
+{
+    global.cpu5 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu3 = global.cpu6)
+{
+    global.cpu6 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu3 = global.cpu7)
+{
+    global.cpu7 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu3 = global.cpu8)
+{
+    global.cpu8 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu4 = global.cpu5)
+{
+    global.cpu5 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu4 = global.cpu6)
+{
+    global.cpu6 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu4 = global.cpu7)
+{
+    global.cpu7 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu4 = global.cpu8)
+{
+    global.cpu8 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu5 = global.cpu6)
+{
+    global.cpu6 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu5 = global.cpu7)
+{
+    global.cpu7 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu5 = global.cpu8)
+{
+    global.cpu8 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu6 = global.cpu7)
+{
+    global.cpu7 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu6 = global.cpu8)
+{
+    global.cpu8 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
+while (global.cpu7 = global.cpu8)
+{
+    global.cpu8 = choose(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+}
