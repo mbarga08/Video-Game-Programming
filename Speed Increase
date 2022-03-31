@@ -1,0 +1,35 @@
+if global.decide = 1
+{
+    if global.mHealth > 5
+    {
+        sprite_index = spr_micah_right;
+    }
+    if global.mHealth <= 5
+    {
+        sprite_index = spr_micah_right_hurt;
+    }
+    if instance_exists(obj_invincibilityStars_micah)
+    {
+        x += 8+(obj_threePlayerControl.mCash*0.1);
+        if obj_threePlayerControl.mCash = 10
+        {
+            image_speed = 0.9; //Animation speed.
+        }
+        else
+        {
+            image_speed = 0.8;
+        }
+    }
+    else
+    {
+        x += 4+(obj_threePlayerControl.mCash*0.1);
+        if obj_threePlayerControl.mCash = 10
+        {
+            image_speed = 0.5; //Animation speed.
+        }
+        else
+        {
+            image_speed = 0.4;
+        }
+    }
+}
