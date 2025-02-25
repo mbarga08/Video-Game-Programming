@@ -1,0 +1,34 @@
+var __b__;
+__b__ = action_if(room == rm_openSky_level1 || room == rm_openSky_level2);
+if __b__
+{
+{
+var yRange = irandom_range(32, 1048);
+action_create_object(obj_rock, obj_verticalBoundary_focus.x+80, yRange);
+action_set_alarm(room_speed*0.1, 0);
+}
+}
+__b__ = action_if(room == rm_vollavaHeights_level1);
+if __b__
+{
+{
+var yRangeOne = irandom_range(32, 992);
+var yRangeTwo = irandom_range(32, 992);
+action_create_object(obj_rock, obj_verticalBoundary_focus.x+80, yRangeOne);
+action_create_object(obj_rock, obj_verticalBoundary_focus.x+80, yRangeTwo);
+action_set_alarm(room_speed*0.1, 0);
+}
+}
+__b__ = action_if(room == rm_vollavaHeights_level2);
+if __b__
+{
+{
+var yRangeOne = irandom_range(32, 896);
+var yRangeTwo = irandom_range(32, 896);
+var yRangeThree = irandom_range(32, 896);
+action_create_object(obj_rock, obj_verticalBoundary_focus.x+80, yRangeOne);
+action_create_object(obj_rock, obj_verticalBoundary_focus.x+80, yRangeTwo);
+action_create_object(obj_rock, obj_verticalBoundary_focus.x+80, yRangeThree);
+action_set_alarm(room_speed*0.1, 0);
+}
+}
