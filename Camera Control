@@ -1,0 +1,22 @@
+if global.confirm = 1
+{
+	if y >= 1900
+	{
+		camera_set_view_speed(view_camera[0], -1, 0);
+	}
+	else
+	{
+		camera_set_view_speed(view_camera[0], -1, -1);
+	}
+}
+if global.pick = 1
+{
+	if y >= 1900
+	{
+		camera_set_view_speed(view_camera[1], -1, 0);
+	}
+	else
+	{
+		camera_set_view_speed(view_camera[1], -1, -1);
+	}
+}
