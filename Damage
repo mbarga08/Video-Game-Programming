@@ -1,0 +1,36 @@
+if jHurt = 0
+{
+	if global.playerHP > 0
+	{
+		action_set_relative(1);
+		action_end_sound(snd_moneyBag);
+		action_end_sound(snd_hit1);
+		action_sound(snd_hit2, false);
+		action_sound(snd_jeffHurt, false);
+		global.playerHP -= 1;
+		jHurt = 1;
+		action_set_alarm(room_speed*3, 0);
+		action_set_relative(0);
+		if sprite_index = spr_jeff_right
+		{
+			action_sprite_set(spr_jeff_right_hurt, -1, 0.4);
+		}
+		if sprite_index = spr_jeff_right_throw
+		{
+			action_sprite_set(spr_jeff_right_throw_hurt, -1, 0.4);
+		}
+		if sprite_index = spr_jeff_left
+		{
+			action_sprite_set(spr_jeff_left_hurt, -1, 0.4);
+		}
+		if sprite_index = spr_jeff_left_throw
+		{
+			action_sprite_set(spr_jeff_left_throw_hurt, -1, 0.4);
+		}
+	}
+}
+if global.playerHP < 1
+{
+	action_change_object(obj_jeff_ko, true);
+}
+//Set injury and KO states accordingly.
